@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-purple.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -18,7 +18,17 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>SS</a>
   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
-  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
+  <!-- friend list -->
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button w3-padding-large" title="Friend Requests"><i class="fa fa-user"></i><span class="w3-badge w3-right w3-small w3-green">5</span></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+      <a href="#" class="w3-bar-item w3-button">Aman Singh</a>
+      <a href="#" class="w3-bar-item w3-button">Rohan Mishra</a>
+      <a href="#" class="w3-bar-item w3-button">Jay Patel</a>
+      <a href="#" class="w3-bar-item w3-button">Rohit Jha</a>
+      <a href="#" class="w3-bar-item w3-button">Sumit Kumar</a>
+    </div>
+  </div>
   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
   <div class="w3-dropdown-hover w3-hide-small">
     <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
@@ -28,6 +38,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
       <a href="#" class="w3-bar-item w3-button">Ayush Mallick likes your post</a>
     </div>
   </div>
+  <!-- <a href="https://twitter.com/uthjaoSid?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @uthjaoSid</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
     <img src="https://scontent.fpat2-1.fna.fbcdn.net/v/t1.0-1/p200x200/104686300_706528439918663_3993785731844834736_o.jpg?_nc_cat=104&ccb=1-3&_nc_sid=7206a8&_nc_ohc=mMhdLEZqGvkAX90GwwZ&_nc_ht=scontent.fpat2-1.fna&tp=6&oh=ac48e52120c0118dc2f34a3979d6eb99&oe=606AFB3C" 
     class="w3-circle" 
@@ -132,18 +143,19 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
         <p><strong>Hey!</strong></p>
         <p>People are looking at your profile. Find out who.</p>
       </div>
+      
     
     <!-- End Left Column -->
     </div>
     
     <!-- Middle Column -->
     <div class="w3-col m7">
-    
+      <img src="../assets/s.png" alt="subscribe" class="center">
       <div class="w3-row-padding">
         <div class="w3-col m12">
           <div class="w3-card w3-round w3-white">
             <div class="w3-container w3-padding">
-              <h6 class="w3-opacity">Social Media By Siddharth</h6>
+              <h4 class="w3-opacity">Whats Going on..</h4>
               <p contenteditable="true" class="w3-border w3-padding">Status: Feeling Blue</p>
               <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>  Post</button> 
             </div>
@@ -151,6 +163,8 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
         </div>
       </div>
       
+
+
       <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
         <img src="https://scontent.fpat2-1.fna.fbcdn.net/v/t1.0-1/c0.19.200.200a/p200x200/78612523_2419007064894318_7037011027791183872_o.jpg?_nc_cat=107&ccb=1-3&_nc_sid=7206a8&_nc_ohc=VOekeWhsuBAAX8_zsfn&_nc_ht=scontent.fpat2-1.fna&tp=27&oh=522915dcd44127ce8df93fc48653deac&oe=606B0E38" 
         alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
@@ -160,10 +174,10 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
         <p>The elephant is never won by anger; nor must that man who would reclaim a lion take him by the teeth...</p>
           <div class="w3-row-padding" style="margin:0 -16px">
             <div class="w3-half">
-              <img src="../assets/as.jpg" style="width:100%" alt="horse-man" class="w3-margin-bottom">
+              <img src="../assets/as.jpg" style="width:100%" alt="elephant" class="w3-margin-bottom">
             </div>
             <div class="w3-half">
-              <img src="../assets/as2.jpg" style="width:100%" alt="horse" class="w3-margin-bottom">
+              <img src="../assets/as2.jpg" style="width:100%" alt="elephant" class="w3-margin-bottom">
           </div>
         </div>
         <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
@@ -183,16 +197,31 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
       </div>  
 
       <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
-        <img src="https://scontent.fpat2-1.fna.fbcdn.net/v/t1.0-1/p200x200/137541314_736764440597630_4812916093847646124_o.jpg?_nc_cat=103&ccb=1-3&_nc_sid=7206a8&_nc_ohc=UIT1n42i1_kAX95HB3Q&_nc_ht=scontent.fpat2-1.fna&tp=6&oh=7750d451235e6e0d4fa9da3a5a2ed6b9&oe=606AA7BF" 
+        <img src="https://scontent.fpat2-2.fna.fbcdn.net/v/t1.0-9/84524631_10157761021800619_5590379413008023552_o.jpg?_nc_cat=1&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=f66NXQYZLkQAX9Dzbk1&_nc_ht=scontent.fpat2-2.fna&oh=fc96ff9a98aef8db73721b6f7759b7da&oe=60699C0F" 
         alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
-        <span class="w3-right w3-opacity">32 min</span>
-        <h4>Rishav Jha(रिशु)</h4><br>
+        <span class="w3-right w3-opacity">1 min</span>
+        <h4>Royal Challengers Banglore</h4><br>
         <hr class="w3-clear">
-        <p>One of the best ;)</p>
-        <img src="../assets/rj.webp" style="width:100%" class="w3-margin-bottom">
+        <p>The moment we've all been waiting for! The fixtures for #IPL2021 are out!
+          Which RCB game are you looking forward to the most, 12th Man Army?🤔
+          #PlayBold #WeAreChallengers</p>
+          <div class="w3-row-padding" style="margin:0 -12px">
+            <div class="w3-half">
+              <img src="https://scontent.fpat2-2.fna.fbcdn.net/v/t1.0-9/157264082_10158884371855619_5394612239056885093_o.jpg?_nc_cat=1&ccb=1-3&_nc_sid=a26aad&_nc_ohc=sl2nWZ8fKZEAX-bJkXh&_nc_ht=scontent.fpat2-2.fna&oh=98287ad0aefb48207f2ca75d88d65592&oe=606A46D4" style="width:100%" class="w3-margin-bottom" style="width:100%" alt="RCB" class="w3-margin-bottom">
+            </div>
+            <div class="w3-half">
+              <img src="https://scontent.fpat2-2.fna.fbcdn.net/v/t1.0-9/158087900_10158884371905619_7855710298913560819_o.jpg?_nc_cat=1&ccb=1-3&_nc_sid=a26aad&_nc_ohc=mbLOukrdAa8AX9sKxAU&_nc_ht=scontent.fpat2-2.fna&oh=82beda11e90d996141ea295bd5ab50dc&oe=60694108" style="width:100%" class="w3-margin-bottom" style="width:100%" alt="rcb" class="w3-margin-bottom">
+          </div>
+          <div class="w3-half">
+            <img src="https://scontent.fpat2-2.fna.fbcdn.net/v/t1.0-9/157545305_10158884371965619_7340853326666069795_o.jpg?_nc_cat=1&ccb=1-3&_nc_sid=a26aad&_nc_ohc=wQ_GPcXwK2IAX9Ed1yS&_nc_ht=scontent.fpat2-2.fna&oh=df69af0a97471a4f5b329f0108ff118c&oe=6069830F" style="width:100%" class="w3-margin-bottom" style="width:100%" alt="rcb" class="w3-margin-bottom">
+        </div>
+        </div>
         <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
         <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
-      </div> 
+      </div>
+    
+        
+        
       
     <!-- End Middle Column -->
     </div>
@@ -246,13 +275,22 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
 </div>
 <br>
 
+
 <!-- Footer -->
 <footer class="w3-container w3-theme-d3 w3-padding-16">
   <p>Contact me @</p>
 </footer>
 
 <footer class="w3-container w3-theme-d5">
-  <p>Made By <a href="https://twitter.com/uthjaoSid" target="_blank">Sid</a></p>
+  <!-- <p>Made By <a href="https://twitter.com/uthjaoSid" target="_blank">Sid</a></p> -->
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-purple" title="My Account">
+    <img src="../assets/tw.png" 
+    class="w3-circle" 
+    style="height:23px;width:23px" alt="Logo">
+  </a>
+
+  
+  
 </footer>
  
 <script>
@@ -279,6 +317,12 @@ function openNav() {
   }
 }
 </script>
+
+
+<!-- api -->
+<div *ngFor="let x of profile">
+  <h6>  {{m.login}} </h6>
+</div>
 
 </body>
 </html> 
